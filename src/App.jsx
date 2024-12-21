@@ -3,6 +3,7 @@
 // import viteLogo from '/vite.svg'
 import './App.css'
 import Counter from './Counter';
+import LikeButton from '../LikeButton';
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
     <>
         <h1>State in React</h1>
         <Counter/>
+        <LikeButton/>
     </>
   );
 }
